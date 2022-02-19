@@ -11,7 +11,7 @@ import javax.validation.constraints.NotNull;
 public class Item {
     private Long id;
 
-    @NotBlank(message = "공백X")
+    @NotBlank(message = "공백XXX")
     private String itemName;
 
     @NotNull
