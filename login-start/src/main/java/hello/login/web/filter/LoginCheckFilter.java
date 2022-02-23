@@ -24,7 +24,7 @@ public class LoginCheckFilter implements Filter {
         HttpServletResponse httpResponse = (HttpServletResponse) response;
 
         try{
-            log.info("인층 츠케 필터 시작{}", requestURI);
+            log.info("인층 체크 필터 시작{}", requestURI);
             if (isLoginCheckPath(requestURI)) {
                 log.info("인증 체크 로직 실행 {}", requestURI);
                 HttpSession session = httpRequest.getSession(false);
