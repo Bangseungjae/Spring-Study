@@ -10,7 +10,7 @@ import java.util.Date;
 
 @Slf4j
 @RestController
-public class SessionInfController {
+public class SessionInfoController {
 
     @GetMapping("/session-info")
     public String sessionInfo(HttpServletRequest request) {
